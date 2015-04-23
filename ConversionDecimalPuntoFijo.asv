@@ -63,6 +63,9 @@ else%Si el valor original es negativo se procede a hacer el complemento a dos de
 end
 
 Conversion = num2str(Conversion);
-Conversion = strrep(Conversion,' ','')  ;  
+Conversion = strrep(Conversion,' ',)    
+texto='hola a todos';
 
+TEXTO=strrep(texto,' ',''); % Elimina los espacios en blanco 
 
+TEXTO='holaatodos'
