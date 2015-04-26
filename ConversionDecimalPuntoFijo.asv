@@ -1,4 +1,6 @@
-function [ Conversion ] = ConversionDecimalPuntoFijo( NumDec )
+%NumDec = -10.86879; %Variable de entrada
+ function [ Conversion ] = ConversionDecimalPuntoFijo(NumDec)
+
 ParteEntera = 8;
 ParteDecimal = 16;
 
@@ -59,3 +61,11 @@ else%Si el valor original es negativo se procede a hacer el complemento a dos de
         end
     end
 end
+
+Conversion = num2str(Conversion);
+Conversion = strrep(Conversion,' ',)    
+texto='hola a todos';
+
+TEXTO=strrep(texto,' ',''); % Elimina los espacios en blanco 
+
+TEXTO='holaatodos'
